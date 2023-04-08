@@ -81,7 +81,7 @@ Split iSAID dataset and its coco-format json annotation files.
 
 [Here](dataset/iSAID) is a sample dataset to test this project.
 
-If you want to change the folder, please modify the parameters ```--src```, ```--tar``` in [split.py](split.py) and ```--outdir```, ```--datadir``` in [preprocess.py](preprocess.py).
+If you want to change the folder for reading and saving image, please modify the parameters ```--src```, ```--tar``` in [split.py](split.py) and ```--outdir```, ```--datadir``` in [preprocess.py](preprocess.py).
 
 If you want to change the size and the overlap area of the split please modify to the parameters ```--patch_width```, ```--patch_height```, ```--overlap_area``` in [split.py](split.py).
 
