@@ -85,5 +85,7 @@ If you want to change the folder for reading and saving image, please modify the
 
 If you want to change the size and the overlap area of the split please modify to the parameters ```--patch_width```, ```--patch_height```, ```--overlap_area``` in [split.py](split.py).
 
+If you want to delete the images with empty annotation, you can use [clear_isaid.py](clear_isaid.py) to clear the folder by ```python clear_isaid.py --clear-folder <clear_folder_path>```.
+
 # Acknowledgement
 This script is developed based on [iSAID_Devkit](https://github.com/CAPTAIN-WHU/iSAID_Devkit).
